@@ -1,0 +1,16 @@
+capital = 3
+primary_culture = west_european
+culture = north_european
+culture = south_european
+culture = east_european
+religion = western_1
+government = monarchy
+nationalvalue = hard_work
+plurality = 0.5
+civilized = yes
+ruling_party = EUR_liberal
+upper_house = {
+    liberalism = 40
+    conservatism = 60
+}
+oob = "EUR_oob.txt"

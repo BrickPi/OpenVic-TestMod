@@ -1,0 +1,141 @@
+# generic, TODO: expand to additional testcases where needed, likely lengths of namelists
+
+european = {
+    leader = european
+    unit = EuropeGC
+    union = EUR
+
+    north_european = {
+        color = { 230 0 0 }
+        first_names = { North }
+        last_names = { European }
+    }
+
+    south_european = {
+        color = { 210 0 0 }
+        first_names = { South }
+        last_names = { European }
+    }
+
+    west_european = {
+        color = { 42 222 54 }
+        first_names = { West }
+        last_names = { European }
+    }
+
+    east_european = {
+        color = { 197 123 87 }
+        first_names = { East }
+        last_names = { European }
+    }
+}
+
+american = {
+    leader = american
+    unit = AmericanGC
+
+    south_american = {
+        color = { 0 180 0 }
+        first_names = { South }
+        last_names = { American }
+    }
+
+    middle_american = {
+        color = { 0 120 0 }
+        first_names = { Middle }
+        last_names = { American }
+    }
+
+    caribbean = {
+        color = { 255 120 120 }
+        first_names = { Caribbean }
+        last_names = { American }
+    }
+
+    north_american = {
+        color = { 120 120 255 }
+        first_names = { North }
+        last_names = { American }
+    }
+}
+
+african = {
+    leader = african
+    union = AFR
+
+    north_african = {
+        color = { 235 168 52 }
+        first_names = { North }
+        last_names = { African }
+    }
+    
+    west_african = {
+        color = { 66 107 34 }
+        first_names = { West }
+        last_names = { African }
+    }
+
+    east_african = {
+        color = { 15 59 51 }
+        first_names = { East }
+        last_names = { African }
+    }
+
+    south_african = {
+        color = { 255 255 25 }
+        first_names = { South }
+        last_names = { African }
+    }
+}
+
+asian = {
+    leader = asian
+    unit = AsiaGC
+
+    central_asian = {
+        color = { 40 40 40 }
+        first_names = { Central }
+        last_names = { Asian }
+    }
+
+    south_asian = {
+        color = { 100 60 60 }
+        first_names = { South }
+        last_names = { Asian }
+    }
+
+    east_asian = {
+        color = { 255 100 100 }
+        first_names = { East }
+        last_names = { Asian }
+    }
+
+    west_asian = {
+        color = { 200 200 100 }
+        first_names = { West }
+        last_names = { Asian }
+    }
+
+    australasian = {
+        color = { 200 200 255 }
+        first_names = { "G'day" }
+        last_names = { Australia }
+    }
+}
+
+arctic = {
+    leader = arctic
+    union = ANT
+
+    penguin = {
+        color = { 240 240 255 }
+        first_names = { Penguin }
+        last_names = { 1 2 3 4 5 6 7 8 }
+    }
+
+    polar_bear = {
+        color = { 240 240 245 }
+        first_names = { 1st 2nd 3rd 4th 5th 6th 7th 8th }
+        last_names = { "Polar Bear" } # tests quotes
+    }
+}

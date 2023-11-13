@@ -1,0 +1,32 @@
+3 = {
+    users = {
+        culture = west_european
+        religion = western_1
+        size = 4000000
+    }
+    users = {
+        culture = north_european
+        religion = western_1
+        size = 2000000
+    }
+    users = {
+        culture = south_european
+        religion = western_1
+        size = 3000000
+    }
+    users = {
+        culture = east_european
+        religion = western_2
+        size = 4000000
+    }
+    devs = {
+        culture = west_european
+        religion = western_1
+        size = 20000
+    }
+    reqs = {
+        culture = west_european
+        religion = western_1
+        size = 100
+    }
+}

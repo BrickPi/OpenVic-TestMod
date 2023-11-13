@@ -1,0 +1,38 @@
+monarchy = {
+    election = no
+    appoint_ruling_party = yes
+
+    liberalism = yes
+    centrism = yes
+    conservatism = yes
+    reaction = yes
+    socialism = yes
+    ultranationalism = yes
+}
+dictatorship = {
+    election = no
+    appoint_ruling_party = yes
+
+    liberalism = yes
+    centrism = yes
+    conservatism = yes
+    reaction = yes
+    socialism = yes
+    communism = yes
+    fascism = yes
+    ultranationalism = yes
+}
+democracy = {
+    election = yes
+    duration = 48
+    appoint_ruling_party = no
+
+    liberalism = yes
+    centrism = yes
+    conservatism = yes
+    reaction = yes
+    socialism = yes
+    communism = yes
+    fascism = yes
+    ultranationalism = yes
+}

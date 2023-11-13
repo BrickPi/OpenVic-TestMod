@@ -1,0 +1,8 @@
+hard_work = {
+    rgo_output = 0.2
+}
+
+authority = {
+    goods_demand = -0.05
+    mobilisation_size = 0.1
+}

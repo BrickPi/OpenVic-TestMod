@@ -1,0 +1,160 @@
+liberal_ideologies = {
+    liberalism = {
+        color = { 255 255 0 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+    centrism = {
+        color = { 100 255 100 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+}
+conservative_ideologies = {
+    conservatism = {
+        color = { 0 0 255 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+    reaction = {
+        color = { 40 40 255 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+}
+socialist_ideologies = {
+    socialism = {
+        color = { 255 20 20 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+    communism = {
+        color = { 150 0 0 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+}
+far_right_ideologies = {
+    fascism = {
+        color = { 255 255 255 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+    ultranationalism = {
+        color = { 220 220 220 }
+
+        add_political_reform = {
+
+        }
+
+        remove_political_reform = {
+
+        }
+
+        add_social_reform = {
+
+        }
+
+        remove_social_reform = {
+            
+        }
+    }
+}

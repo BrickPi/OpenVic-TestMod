@@ -1,0 +1,3 @@
+color = { 0 0 255 }
+sprite = 1
+strata = rich

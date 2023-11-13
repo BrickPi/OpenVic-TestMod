@@ -1,0 +1,103 @@
+basic_factory = {
+    type = factory
+    workforce = 4000
+
+    efficiency = {
+        coal = 0.1
+    }
+
+    owner = {
+        poptype = reqs
+        effect = input
+        effect_multiplier = -2
+    }
+
+    employees = {
+        {
+            poptype = users
+            effect = throughput
+            amount = 1
+        }
+    }
+}
+# Intermediate Goods
+mill = {
+    template = basic_factory
+    input_goods = {
+        wheat = 1
+    }
+    output_goods = flour
+    value = 0.75
+    bonus = {
+        trigger = { trade_goods = wheat }
+        value = 0.25
+    }
+    bonus = {
+        trigger = { trade_goods = water }
+        value = 0.25
+    }
+}
+foundry = {
+    template = basic_factory
+    input_goods = {
+        iron = 1
+        coal = 0.8
+        water = 0.1
+    }
+    output_goods = steel
+    value = 0.5
+    bonus = {
+        trigger = { trade_goods = iron }
+        value = 0.5
+    }
+    bonus = {
+        trigger = { trade_goods = coal }
+        value = 0.25
+    }
+}
+semiconductor_fab = {
+    template = basic_factory
+    input_goods = {
+        steel = 1
+        silicon = 3
+        water = 0.2
+    }
+    output_goods = semiconductors
+    value = 0.6
+    bonus = {
+        value = 0.4
+        trigger = { trade_goods = silicon }
+    }
+}
+# Advanced Goods
+computer_workshop = {
+    template = basic_factory
+    input_goods = {
+        semiconductors = 2
+        steel = 1
+    }
+    output_goods = computers
+    value = 0.5
+    bonus = {
+        trigger = { has_building = foundry }
+        value = 0.2
+    }
+    bonus = {
+        trigger = { has_building = semiconductor_fab }
+        value = 0.5
+    }
+}
+game_studio = {
+    template = basic_factory
+    input_goods = {
+        computers = 1
+        food = 1
+        water = 1
+    }
+    output_goods = games
+    value = 0.1
+    bonus = {
+        value = 0.2
+        trigger = { is_capital = yes }
+    }
+}

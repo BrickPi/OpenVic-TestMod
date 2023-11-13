@@ -1,0 +1,22 @@
+national_foci = {
+    encourage_immigration = {
+        immigrant_attract = 5
+        icon = 1
+    }
+    encourage_tension = {
+        icon = 2
+        has_flashpoint = yes
+        flashpoint_tension = 0.2
+
+        own_provinces = no
+        limit = {
+            is_core = THIS
+            THIS = { is_greater_power = no }
+        }
+    }
+    encourage_devs = {
+        devs = 0.5
+        icon = 3
+        outliner_show_as_percent = yes
+    }
+}

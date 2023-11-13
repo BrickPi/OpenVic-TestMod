@@ -1,0 +1,22 @@
+color = { 100 200 255 }
+graphical_culture = EuropeGC
+
+party = {
+    name = "AUS_liberal"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = liberalism
+}
+
+party = {
+    name = "AUS_conservative"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = conservatism
+}
+
+unit_names = {
+    boat = { 1 }
+}

@@ -1,0 +1,38 @@
+developer = {
+    icon = 2
+    sprite = Developer
+
+    type = land
+    unit_type = cavalry
+    
+    active = yes
+    floating_flag = no
+    
+    priority = 1
+    weighted_value = 1.0
+    max_strength = 4
+    default_organisation = 20
+    maximum_speed = 8.00
+    
+    build_time = 60
+    build_cost = {
+        computers = 10
+        games = 1
+        food = 10
+        water = 10
+    }
+    
+    supply_consumption = 0.5
+    supply_cost = {
+        food = 0.02
+        water = 0.02
+    }
+    
+    #stats
+    attack = 3
+    defence = 3
+    discipline = 3
+    support = 1
+    maneuver = 2
+    reconnaissance = 0.5
+}

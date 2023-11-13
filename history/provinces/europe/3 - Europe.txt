@@ -1,0 +1,5 @@
+owner = EUR
+controller = EUR
+add_core = EUR
+trade_goods = coal
+life_rating = 32

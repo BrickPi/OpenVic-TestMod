@@ -1,0 +1,108 @@
+#todo
+mill = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.25
+    max_level = 100
+    goods_cost = {
+        steel = 50
+        iron = 100
+    }
+    time = 180
+    visibility = yes
+    onmap = no
+
+    production_type = mill
+    pop_build_factory = yes
+}
+foundry = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.25
+    max_level = 100
+    goods_cost = {
+        steel = 40
+        iron = 120
+        water = 10
+    }
+    time = 240
+    visibility = yes
+    onmap = no
+
+    production_type = foundry
+    pop_build_factory = yes
+}
+semiconductor_fab = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.25
+    max_level = 100
+    goods_cost = {
+        steel = 50
+        iron = 100
+        silicon = 50
+    }
+    time = 365
+    visibility = yes
+    onmap = no
+
+    production_type = semiconductor_fab
+    pop_build_factory = yes
+}
+computer_workshop = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.25
+    max_level = 100
+    goods_cost = {
+        steel = 50
+        iron = 100
+        silicon = 50
+    }
+    time = 240
+    visibility = yes
+    onmap = no
+
+    production_type = computer_workshop
+    pop_build_factory = yes
+    advanced_factory = yes
+}
+game_studio = {
+    type = factory
+    on_completion = factory
+    completion_size = 0.25
+    max_level = 100
+    goods_cost = {
+        steel = 50
+        iron = 100
+        computers = 25
+    }
+    time = 180
+    visibility = yes
+    onmap = no
+
+    production_type = game_studio
+    pop_build_factory = yes
+    advanced_factory = yes
+}
+port = {
+    type = naval_base
+    cost = 20000
+    goods_cost = {
+        steel = 100
+        iron = 100
+    }
+    time = 600
+    naval_capacity = 1
+    onmap = yes
+    port = yes
+    visibility = yes
+    max_level = 5
+    colonial_points = {
+        10 20 40 80 200
+    }
+    province = yes
+    one_per_state = yes
+    colonial_range = 50
+    local_ship_build = -0.12
+}

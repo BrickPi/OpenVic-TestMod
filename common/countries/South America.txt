@@ -1,0 +1,22 @@
+color = { 0 255 0 }
+graphical_culture = AmericanGC
+
+party = {
+    name = "SAM_liberal"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = liberalism
+}
+
+party = {
+    name = "SAM_conservative"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = conservatism
+}
+
+unit_names = {
+    boat = { 1 }
+}

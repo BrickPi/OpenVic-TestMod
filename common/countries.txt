@@ -1,0 +1,7 @@
+EUR = "countries/Europe.txt"
+NAM = "countries/North America.txt"
+SAM = "countries/South America.txt"
+ASA = "countries/Asia.txt"
+AFR = "countries/Africa.txt"
+AUS = "countries/Australasia.txt"
+ANT = "countries/Antarctica.txt"

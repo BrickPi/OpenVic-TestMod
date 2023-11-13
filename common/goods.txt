@@ -1,0 +1,58 @@
+important_goods = {
+    food = {
+        cost = 5.0
+        color = { 89 179 113 }
+    }
+    water = {
+        cost = 2.0
+        color = { 41 69 207 }
+    }
+    money = {
+        cost = 10.0
+        tradeable = no
+        money = yes
+        color = { 255 221 0 }
+    }
+}
+openvic_goods = {
+    computers = {
+        cost = 20.0
+        color = { 43 255 0 }
+    }
+    games = {
+        cost = 60.0
+        color = { 255 255 255 }
+    }
+}
+raw_resource_goods = {
+    wheat = {
+        cost = 2.5
+        color = { 255 255 89 }
+    }
+    coal = {
+        cost = 4.0
+        color = { 0 0 0 }
+    }
+    iron = {
+        cost = 4.0
+        color = { 60 60 60 }
+    }
+    silicon = {
+        cost = 3.5
+        color = { 47 255 0 }
+    }
+}
+intermediate_goods = {
+    flour = {
+        cost = 4.0
+        color = { 214 212 154 }
+    }
+    steel = {
+        cost = 7.0
+        color = { 160 160 160 }
+    }
+    semiconductors = {
+        cost = 8.5
+        color = { 100 100 100 }
+    }
+}

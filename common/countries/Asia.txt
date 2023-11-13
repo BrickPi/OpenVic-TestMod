@@ -1,0 +1,22 @@
+color = { 255 0 0 }
+graphical_culture = AsiaGC
+
+party = {
+    name = "ASA_liberal"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = liberalism
+}
+
+party = {
+    name = "ASA_conservative"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = conservatism
+}
+
+unit_names = {
+    boat = { 1 }
+}

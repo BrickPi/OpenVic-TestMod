@@ -1,0 +1,8 @@
+guiTypes = {
+    windowType = { #todo
+        name = "topbar"
+        position = { x = 0 y = 0 }
+        size = { x = 1920 y = 100 }
+        moveable = 0
+    }
+}

@@ -1,0 +1,17 @@
+army = {
+    name = "European Army"
+    location = 3
+    regiment = {
+        name = "Developer Legion"
+        type = developer
+        home = 3
+    }
+}
+leader = {
+    name = "BrickPi"
+    date = 2023.1.21
+    type = land
+    personality = nice # :)
+    background = self_taught
+    prestige = 0.2
+}

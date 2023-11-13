@@ -1,0 +1,23 @@
+#todo
+peace_order = {
+    test_wargoal_1
+}
+
+test_wargoal_1 = {
+    sprite_index = 1
+    war_name = TEST_WAR_NAME
+    months = 12
+    truce_months = 24
+    constructing_cb = yes
+    mutual = yes
+    po_reparations = yes
+}
+
+test_wargoal_2 = {
+    sprite_index = 2
+    war_name = TEST_WAR_2_NAME
+    months = 12
+    truce_months = 24
+    constructing_cb = yes
+    po_annex = yes
+}

@@ -1,0 +1,40 @@
+boat = {
+	icon = 3
+	naval_icon = 1
+	
+	type = naval
+	sprite = Boat
+	transport = yes
+	active = yes
+	unit_type = transport
+	floating_flag = yes
+	colonial_points = 20
+
+	priority = 10
+	max_strength = 100
+	default_organisation = 40
+	maximum_speed = 10
+	weighted_value = 4.0
+	can_build_overseas = yes
+    min_port_level = 1
+    limit_per_port = -1
+    supply_consumption_score = 1
+
+	build_time = 60
+	build_cost = {
+        computers = 1
+		food = 5
+		steel = 10
+	}
+	
+	supply_consumption = 0.2
+	supply_cost = {
+		steel = 0.02
+		coal = 0.1
+	}
+	
+	hull = 10
+	gun_power = 5
+	fire_range = 1
+	evasion = 1
+}

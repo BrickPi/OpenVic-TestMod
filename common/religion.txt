@@ -1,0 +1,31 @@
+traditional = {
+    pagan = {
+        icon = 1
+        color = { 255 0 0 }
+        pagan = yes
+    }
+    polar = {
+        icon = 2
+        color = { 255 255 255 }
+    }
+}
+western = {
+    western_1 = {
+        icon = 3
+        color = { 40 61 59 }
+    }
+    western_2 = {
+        icon = 4
+        color = { 25 114 120 }
+    }
+}
+eastern = {
+    eastern_1 = {
+        icon = 5
+        color = { 119 46 37 }
+    }
+    eastern_2 = {
+        icon = 6
+        color = { 196 69 54 }
+    }
+}

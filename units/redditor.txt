@@ -1,0 +1,37 @@
+redditor = {
+    icon = 1
+    sprite = Redditor
+
+    type = land
+    unit_type = infantry
+    
+    active = yes
+    floating_flag = no
+    
+    priority = 2
+    weighted_value = 1.0
+    max_strength = 2
+    default_organisation = 10
+    maximum_speed = 5.00
+    
+    build_time = 30
+    build_cost = {
+        computers = 5
+        food = 5
+        water = 5
+    }
+    
+    supply_consumption = 0.2
+    supply_cost = {
+        food = 0.01
+        water = 0.01
+    }
+    
+    #stats
+    attack = 1
+    defence = 1
+    discipline = 1
+    support = 0
+    maneuver = 1
+    reconnaissance = 0.25
+}

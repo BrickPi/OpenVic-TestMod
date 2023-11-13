@@ -1,0 +1,14 @@
+terrain = 2
+categories = {
+    ocean = {
+        movement_cost = 1
+        is_water = yes
+        color = { 0 0 255 }
+    }
+    land = {
+        movement_cost = 1
+        supply_limit = 20
+
+        color = { 0 255 0 }
+    }
+}

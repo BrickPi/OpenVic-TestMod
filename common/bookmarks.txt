@@ -1,0 +1,7 @@
+bookmark = {
+    name = "DEFAULT_BOOKMARK"
+    desc = "DEFAULT_BOOKMARK_DESC"
+    date = 2023.1.11
+    cameraX = 0
+    cameraY = 0
+}

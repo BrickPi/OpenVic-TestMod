@@ -1,0 +1,23 @@
+color = { 0 0 255 }
+graphical_culture = EuropeGC
+
+party = {
+    name = "EUR_liberal"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = liberalism
+}
+
+party = {
+    name = "EUR_conservative"
+    start_date = 2023.1.11
+    end_date = 2123.1.10
+
+    ideology = conservatism
+}
+
+unit_names = {
+    boat = { "euroboat 1" }
+    redditor = { "night watch" }
+}

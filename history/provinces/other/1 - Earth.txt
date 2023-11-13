@@ -1,0 +1,5 @@
+owner = ANT
+controller = ANT
+add_core = ANT
+trade_goods = wheat
+life_rating = 20
